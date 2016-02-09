@@ -5,6 +5,5 @@ if (txt.contains("(Hard)"))
 {
 	visit_url("place.php?whichplace=town_right&action=townright_ltt");
 	run_choice(difficulty);
+	adventure(29,$location[Investigating a Plaintive Telegram]);
 }
-
-adventure(29,$location[Investigating a Plaintive Telegram]);
